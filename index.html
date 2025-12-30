@@ -325,9 +325,9 @@
 
       <!-- Loops Form -->
       <div class="newsletter-form-container">
-        <form 
-          class="newsletter-form" 
-          action="https://app.loops.so/api/newsletter-form/cmfwoev700quwzi0iq8r6j903" 
+        <form
+          class="newsletter-form"
+          action="https://app.loops.so/api/newsletter-form/cmjsg0wdb1grx0i2aqnq9bg63"
           method="POST">
           <input type="email" name="email" class="newsletter-form-input" placeholder="Enter your email" required>
           <button type="submit" class="newsletter-form-button">Join waitlist</button>
@@ -396,7 +396,7 @@
       submitButton.style.display = "none";
       loadingButton.style.display = "inline-block";
 
-      var formBody = "userGroup=Waitlist - Final&mailingLists=&email=" + encodeURIComponent(formInput.value);
+      var formBody = "userGroup=Waitlist&mailingLists=&email=" + encodeURIComponent(formInput.value);
 
       fetch(event.target.action, {
         method: "POST",
